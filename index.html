@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SANGI FOUNDATION - A Partner in Humanity</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  
+
+  
+  
+</head>
+
+<body>
+  <!-- VIDEO OVERLAY (MOBILE ONLY) -->
+  <div class="video-overlay" id="videoOverlay" aria-hidden="true">
+    <div class="video-container">
+      <video id="introVideo" muted playsinline>
+        <source src="assets/Video.mp4.mov" type="video/mp4" />
+      </video>
+      <button class="skip-btn" id="skipBtn" type="button">Skip</button>
+      <div class="tap-play" id="tapPlay" role="button" tabindex="0">Tap to Play</div>
+    </div>
+  </div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar" aria-label="Primary Navigation">
+    <div class="nav-container">
+      <a href="#home" class="logo" aria-label="SANGI FOUNDATION Home">
+        <img src="assets\sangiFoundation.png" alt="SANGI Foundation Logo" class="logo-img" />
+      </a>
+
+      <ul class="nav-links" role="list">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+
+      <div class="hamburger" id="hamburger" role="button" tabindex="0" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- MOBILE SIDEBAR -->
+  <div class="sidebar-overlay" id="sidebarOverlay" aria-hidden="true"></div>
+  <aside class="mobile-sidebar" id="mobileSidebar" aria-label="Mobile menu">
+    <button class="close-btn" id="closeBtn" type="button" aria-label="Close menu">&times;</button>
+    <ul class="mobile-nav-links" role="list">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+    </ul>
+    <div class="mobile-contact">
+      <strong>WhatsApp:</strong><br />
+      +91 XXXXXXXXXX
+    </div>
+  </aside>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <div class="tagline">A Partner in Humanity</div>
+      <h1>SANGI FOUNDATION</h1>
+      <p>
+        A community-driven NGO dedicated to empathy, equality, and empowerment. We are launching to support education, health, environment,
+        and social equity for a more compassionate world.
+      </p>
+      <div class="hero-ctas">
+        <a href="#contact" class="btn-primary">Partner With Us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDER -->
+  <section class="slider-section" aria-label="Highlights Slider">
+    <div class="slider-container">
+      <div class="slider" id="slider">
+        <div class="slide active">
+          <img src="assets/slide1.png" alt="Dedicated Team - Trusted Care" loading="lazy" />
+          <div class="slide-overlay">
+            <h2>Dedicated Team. Trusted Care.</h2>
+            <p>Community-driven support with compassion and responsibility.</p>
+          </div>
+          <div class="corner-badge">#TeamSangi</div>
+        </div>
+        <div class="slide">
+          <img src="assets/slide2.png" alt="Free Medical Camps" loading="lazy" />
+          <div class="slide-overlay">
+            <h2>Free Medical Camps</h2>
+            <h3>Healthcare for Every Need</h3>
+          </div>
+          <div class="corner-badge">#TeamSangi</div>
+        </div>
+        <div class="slide">
+          <img src="assets/slide3.png" alt="Empowering Young Minds Through Service" loading="lazy" />
+          <div class="slide-overlay">
+            <h2>Empowering Young Minds Through Service</h2>
+            <p>Education, awareness, and opportunity for a better tomorrow.</p>
+          </div>
+          <div class="corner-badge">#TeamSangi</div>
+        </div>
+        <div class="slider-controls">
+          <button class="slider-btn" id="prevBtn" type="button" aria-label="Previous slide">‹</button>
+          <button class="slider-btn" id="nextBtn" type="button" aria-label="Next slide">›</button>
+        </div>
+      </div>
+      <div class="slider-dots" id="sliderDots" aria-label="Slider dots"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">About SANGI Foundation</h2>
+      <div class="about-content">
+        <h3>Mission</h3>
+        <p>To bring people together in acts of compassion by providing sustainable solutions for education, health, environment, and social equity.</p>
+        <h3>Vision</h3>
+        <p>A world where humanity thrives through kindness, cooperation, and inclusive development.</p>
+        <div class="core-identity">
+          <h3>Core Identity</h3>
+          <p>SANGI Foundation is a community-driven NGO promoting empathy, equality, and empowerment. We aim to create lasting impact through collaborative action and sustainable initiatives that uplift communities and protect our planet.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SANGI VALUES -->
+  <section aria-label="SANGI Values">
+    <div class="container">
+      <h2 class="section-title">What SANGI Stands For</h2>
+      <div class="sangi-intro">
+        <h3>The SANGI Philosophy</h3>
+        <div class="full-form">Service • Awareness • Nurturing • Gratitude • Inclusion</div>
+        <p>Each letter of SANGI represents a core value that drives our mission. Together, these principles form the foundation of our commitment to creating a more compassionate and equitable world.</p>
+      </div>
+      <div class="sangi-grid">
+        <div class="sangi-card">
+          <div class="sangi-letter">S</div>
+          <h3>Service</h3>
+          <p>Dedicated action to uplift communities through compassionate and sustainable initiatives that create lasting positive change.</p>
+        </div>
+        <div class="sangi-card">
+          <div class="sangi-letter">A</div>
+          <h3>Awareness</h3>
+          <p>Educating and empowering individuals to make informed decisions for a better tomorrow through knowledge and understanding.</p>
+        </div>
+        <div class="sangi-card">
+          <div class="sangi-letter">N</div>
+          <h3>Nurturing</h3>
+          <p>Fostering growth, care, and support for individuals and the environment alike, creating spaces where all can thrive.</p>
+        </div>
+        <div class="sangi-card">
+          <div class="sangi-letter">G</div>
+          <h3>Gratitude</h3>
+          <p>Recognizing the value of every contribution and celebrating our shared humanity with appreciation and respect.</p>
+        </div>
+        <div class="sangi-card">
+          <div class="sangi-letter">I</div>
+          <h3>Inclusion</h3>
+          <p>Ensuring equal opportunity and dignity for all, regardless of background or circumstance, building bridges not walls.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOCUS AREAS -->
+  <section aria-label="Focus Areas">
+    <div class="container">
+      <h2 class="section-title">Our Focus Areas</h2>
+      <div class="focus-grid">
+        <div class="focus-card">
+          <h3>Education & Skill Development</h3>
+          <ul>
+            <li>Free tuition centers</li>
+            <li>Skill workshops (digital literacy, art, language, music, development classes)</li>
+            <li>Mentorship programs</li>
+          </ul>
+        </div>
+        <div class="focus-card">
+          <h3>Health & Wellness</h3>
+          <ul>
+            <li>Free health check-up camps</li>
+            <li>Blood donation drives</li>
+            <li>Mental health awareness sessions</li>
+          </ul>
+        </div>
+        <div class="focus-card">
+          <h3>Environment & Sustainability</h3>
+          <ul>
+            <li>Tree plantation drives</li>
+            <li>Plastic-free campaigns</li>
+            <li>Clean water/air awareness projects</li>
+            <li>Recycling Art Workshops</li>
+          </ul>
+        </div>
+        <div class="focus-card">
+          <h3>Social Care & Humanitarian Relief</h3>
+          <ul>
+            <li>Food and clothing donation drives</li>
+            <li>Shelter assistance during disasters</li>
+            <li>Elder care initiatives</li>
+            <li>Animal care</li>
+            <li>"Meals of Kindness" weekly food drives</li>
+            <li>Winter blanket & coat drives</li>
+            <li>Nutri-kits for children & pregnant women</li>
+          </ul>
+        </div>
+        <div class="focus-card">
+          <h3>Child & Women Welfare</h3>
+          <ul>
+            <li>"Safe Haven" shelter program</li>
+            <li>Menstrual hygiene distribution / sanitary pad distribution</li>
+            <li>Counseling and protection workshops</li>
+            <li>Maternal health camps</li>
+            <li>Nutrition support for mothers and children</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">Contact Us</h2>
+      <div class="contact-grid">
+        <div class="contact-form">
+          <form id="contactForm" novalidate>
+            <div class="form-group">
+              <input type="text" id="name" placeholder=" " autocomplete="name" required />
+              <label for="name">Your Name</label>
+              <div class="form-error" id="nameError">Please enter your name</div>
+            </div>
+            <div class="form-group">
+              <input type="text" id="contactField" placeholder=" " autocomplete="email" required />
+              <label for="contactField">Email or Phone</label>
+              <div class="form-error" id="contactError">Please enter a valid email or phone</div>
+            </div>
+            <div class="form-group">
+              <select id="subject" required>
+                <option value="" selected>Select Subject</option>
+                <option value="partnership">Partnership Opportunity</option>
+                <option value="general">General Question</option>
+                <option value="feedback">Feedback</option>
+              </select>
+              <label for="subject">Subject</label>
+              <div class="form-error" id="subjectError">Please select a subject</div>
+            </div>
+            <div class="form-group">
+              <textarea id="message" placeholder=" " required></textarea>
+              <label for="message">Your Message</label>
+              <div class="form-error" id="messageError">Please enter your message</div>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+          </form>
+        </div>
+        <div class="contact-info">
+          <h3>Get in Touch</h3>
+          <div class="contact-item">
+            <div class="contact-item-icon">✉️</div>
+            <div class="contact-item-content">
+              <h4>Email</h4>
+              <p><a href="mailto:info@sangifoundation.org">info@sangifoundation.org</a></p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon">📍</div>
+            <div class="contact-item-content">
+              <h4>Address</h4>
+              <p>Your Address Here<br/>City, State - PIN</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>SANGI Foundation</h3>
+        <p>A Partner in Humanity</p>
+        <p>Building a more compassionate and equitable world through service, awareness, nurturing, gratitude, and inclusion.</p>
+      </div>
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact Us</a>
+      </div>
+      <div class="footer-section">
+        <h3>Contact</h3>
+        <p>Phone: +91 XXXXXXXXXX</p>
+        <p>Email: info@sangifoundation.org</p>
+        <p>Address: Your Address Here</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2025 SANGI Foundation. All Rights Reserved.
+    </div>
+  </footer>
+
+  <!-- WHATSAPP FLOAT -->
+  <a href="https://wa.me/91XXXXXXXXXX" class="fawhatsapp" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">💬</a>
+
+  <!-- TOAST -->
+  <div class="toast" id="toast"></div>
+
+  <script src="script.js"></script>
+
+    </body>
+</html>>
+            
